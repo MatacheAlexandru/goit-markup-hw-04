@@ -153,17 +153,18 @@ align-items: center;
 }
 
 
-.hero-image::before {
+/* .hero-image::before {
     content: '';
     top: 0;
     left: 0;
     width: 1440px;
     height: 600px;
     background: rgba(46, 47, 66, 0.5);   
-}
+} */
 .hero-image>.container{
     display: block; 
     height: 600px;
+    
 }
 
 .button {
