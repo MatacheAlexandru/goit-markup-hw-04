@@ -124,9 +124,9 @@ text-decoration: none;
 /* --HERO IMAGE-- */
 
 .hero-image{
-height: 600px;
+
 background-image: url('/images/people-office1.jpg');
-background-size: 1440px 600px;
+/* background-size: 1440px 600px; */
 background-position: center;
 background-repeat: no-repeat;
 }
@@ -135,11 +135,10 @@ background-repeat: no-repeat;
 .button {
 width: 684px;
 height: 104px;
-/* padding-top: 48px;
+padding-top: 48px;
 padding-left: 515px;
-padding-bottom: 150px; */
-display: flex;
-justify-content: center;
+padding-bottom: 150px;
+
 }
 
 .order-service {
@@ -156,6 +155,8 @@ cursor: pointer;
 border-radius: 4px;
 gap: 10px;
 box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+align-items: center;
+justify-content: center;
 width: 169px;
 height: 56px;
 
@@ -171,8 +172,7 @@ line-height: 60px;
 letter-spacing: 0.02em;
 text-align: center;
 color: var(--WHITE, #FFF);
-display: flex;
-justify-content: center;
+padding-top: 94px;
 
 }
 
