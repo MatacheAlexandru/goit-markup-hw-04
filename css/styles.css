@@ -124,13 +124,13 @@ text-decoration: none;
 /* --HERO IMAGE-- */
 
 .hero-image{
-width: auto;
-height: auto;
+/* width: auto;
+height: auto; */
 background-image: url("/images/people-office1.jpg");
 background-color: #cccccc;
-    background-size: 1440px 600px;
-    background-position: center;
-    background-repeat: no-repeat ;
+background-size: 1440px 600px;
+background-position: center;
+ background-repeat: no-repeat ;
 }
 
 .button {
