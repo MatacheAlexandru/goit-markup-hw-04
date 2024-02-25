@@ -125,7 +125,7 @@ text-decoration: none;
 /* --HERO IMAGE-- */
 
 .hero-image{
-background-image: url(:"./images/people-office1.jpg");
+background-image: url("./images/people-office1.jpg");
  background-color: #cccccc;
  background-size: auto;
  background-position: center;
