@@ -126,12 +126,9 @@ text-decoration: none;
 .hero-image{
 height: 600px;
 background-image: url('/images/people-office1.jpg');
-background-size: 1440px 600px;
+/* background-size: 1440px 600px;
 background-position: center;
-background-repeat: no-repeat;
-
-align-items: center;
-
+background-repeat: no-repeat; */
 }
 
 
@@ -582,13 +579,10 @@ height: 1692px;
 
 .portfolio-main>.container{
     height: 1692px;
-    display: block;
+    
 }
 .filters{
 display: flex;
-align-items: flex-start;
-justify-content: flex-start;
-flex-direction: row;
 gap: 24px;
 width: 857px;
 height: 50px;
@@ -611,8 +605,6 @@ margin: 0;
     border-radius: 4px;
     gap: 10px;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
-    align-items: center;
-    justify-content: center;
     width: 69px;
     height: 48px;
     padding: 0px;
@@ -647,8 +639,7 @@ font-family: "Roboto", sans-serif;
     border-radius: 4px;
     gap: 10px;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
-    align-items: center;
-    justify-content: center;
+
     width: 116px;
     height: 48px;
     
@@ -668,8 +659,6 @@ font-family: "Roboto", sans-serif;
     border-radius: 4px;
     gap: 10px;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
-    align-items: center;
-    justify-content: center;
     width: 78px;
     height: 48px;
 }
@@ -688,8 +677,6 @@ font-family: "Roboto", sans-serif;
     border-radius: 4px;
     gap: 10px;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
-    align-items: center;
-    justify-content: center;
     width: 101px;
     height: 48px;
 }
@@ -708,8 +695,6 @@ font-family: "Roboto", sans-serif;
     border-radius: 4px;
     gap: 10px;
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
-    align-items: center;
-    justify-content: center;
     width: 126px;
     height: 48px;
 }
@@ -807,9 +792,6 @@ border: 1px solid #e7e9fc;
 }
 
 .card-content1, .card-content2, .card-content3{
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
     gap: 8px;
     margin-top: 32px;
     width: 360px;
