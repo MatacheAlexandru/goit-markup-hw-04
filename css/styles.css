@@ -126,11 +126,10 @@ text-decoration: none;
 
 .hero-image{
 background-image: url(/images/people-office1.jpg);
-    background-color: #cccccc;
-    background-size: auto;
-    background-position: center;
-    background-repeat: no-repeat;
-
+ background-color: #cccccc;
+ background-size: auto;
+ background-position: center;
+ background-repeat: no-repeat;
 }
 
 .button {
