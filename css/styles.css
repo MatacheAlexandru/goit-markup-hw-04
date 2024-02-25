@@ -124,13 +124,11 @@ text-decoration: none;
 /* --HERO IMAGE-- */
 
 .hero-image{
-
-background-image: url('/images/people-office1.jpg');
-/* background-size: 1440px 600px; */
+/* background-image: url('/images/people-office1.jpg'); */
+background-image: url('https://github.com/MatacheAlexandru/goit-markup-hw-04.git/images/people-office1.jpg');
 background-position: center;
 background-repeat: no-repeat;
 }
-
 
 .button {
 width: 684px;
